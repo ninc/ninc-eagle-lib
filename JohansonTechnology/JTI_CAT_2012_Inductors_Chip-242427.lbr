@@ -60,19 +60,21 @@
 <package name="JTI_CAT_2012_INDUCTORS_CHIP-242427">
 <smd name="E1" x="-1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
 <smd name="E2" x="1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="21">&lt;NAME</text>
 </package>
 </packages>
 <symbols>
 <symbol name="L-14C_NJV4T">
-<wire x1="-30.48" y1="0" x2="-27.94" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-27.94" y1="0" x2="-25.4" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-25.4" y1="0" x2="-22.86" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="E1" x="-35.56" y="0" visible="pad" length="middle"/>
-<pin name="E2" x="-17.78" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="E1" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="E2" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&lt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JTI_CAT_2012_INDUCTORS_CHIP-242427">
+<deviceset name="JTI_CAT_2012_INDUCTORS_CHIP-242427" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="L-14C_NJV4T" x="0" y="12.7"/>
 </gates>
