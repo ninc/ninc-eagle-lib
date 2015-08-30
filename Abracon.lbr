@@ -57,10 +57,9 @@
 </layers>
 <library>
 <packages>
-<package name="ABLSG-15.000MHZ-D-2-Y-T">
+<package name="ABLS-16.000MHZ-B4-T">
 <smd name="E2" x="4.7498" y="0" dx="5.588" dy="2.1082" layer="1"/>
 <smd name="E1" x="-4.7498" y="0" dx="5.588" dy="2.1082" layer="1"/>
-<smd name="GND" x="0" y="-0.9398" dx="3.9878" dy="2.1082" layer="1" rot="R270"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="ABS25-32.768KHZ-T">
@@ -81,7 +80,6 @@
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <pin name="E1" x="-10.16" y="0" visible="pad" length="middle"/>
 <pin name="E2" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
 <text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="ABS25-32.768KHZ-T">
@@ -97,16 +95,15 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ABLSG-15.000MHZ-D-2-Y-T" prefix="Y">
+<deviceset name="ABLS-16.000MHZ-B4-T" prefix="Y">
 <gates>
 <gate name="G$1" symbol="ABLSG-15.000MHZ-D-2-Y-T" x="0" y="12.7"/>
 </gates>
 <devices>
-<device name="" package="ABLSG-15.000MHZ-D-2-Y-T">
+<device name="" package="ABLS-16.000MHZ-B4-T">
 <connects>
 <connect gate="G$1" pin="E1" pad="E1"/>
 <connect gate="G$1" pin="E2" pad="E2"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>
