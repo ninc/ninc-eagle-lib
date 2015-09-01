@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 400003.PcbDoc   05.12.2012  08:09:49
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 400003-RoundHoles.TXT
+ASCII SlotHoles File : 400003-SlotHoles.TXT
+EIA File   : 400003.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T2        11.8mil (0.29972mm)      Round          121              9.04 Inch (229.72 mm)
+T3        39.4mil (1.00076mm)      Slot           2                284.03 Inch (7214.39 mm)
+T4        43.3mil (1.09982mm)      Round          2                0.18 Inch (4.50 mm)
+T5        20mil (0.508mm)          Round          8         NPTH   0.25 Inch (6.40 mm)
+T6        39mil (0.9906mm)         Round          3         NPTH   0.38 Inch (9.72 mm)
+---------------------------------------------------------------------------
+Totals                                            136              293.89 Inch (7464.73 mm)
+Layer Pair : Top Layer to Mid-Layer 1
+ASCII RoundHoles File : 400003-RoundHoles.TX1
+EIA File   : 400003.DR1
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        3.9mil (0.09906mm)       Round          27               2.14 Inch (54.47 mm)
+---------------------------------------------------------------------------
+Totals                                            27               2.14 Inch (54.47 mm)
+Layer Pair : Mid-Layer 2 to Bottom Layer
+ASCII RoundHoles File : 400003-RoundHoles.TX2
+EIA File   : 400003.DR2
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        3.9mil (0.09906mm)       Round          28               2.84 Inch (72.21 mm)
+---------------------------------------------------------------------------
+Totals                                            28               2.84 Inch (72.21 mm)
+---------------------------------------------------------------------------
+Totals                                            191              298.87 Inch (7591.41 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
