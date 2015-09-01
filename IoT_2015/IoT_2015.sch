@@ -1269,9 +1269,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <wire x1="254" y1="25.4" x2="254" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="25.4" x2="307.34" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="HUM/TEMP" gate="G$1" pin="VSS"/>
 <wire x1="10.16" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -1284,6 +1281,11 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <segment>
 <pinref part="R2" gate="G$1" pin="E1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="E2"/>
+<wire x1="307.34" y1="25.4" x2="307.34" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1390,6 +1392,7 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <pinref part="ANTENNA" gate="G$1" pin="E1"/>
 <wire x1="307.34" y1="45.72" x2="307.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="307.34" y="45.72"/>
+<junction x="287.02" y="45.72"/>
 </segment>
 </net>
 <net name="P0.00" class="0">
