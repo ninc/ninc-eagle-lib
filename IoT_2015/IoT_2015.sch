@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,8 +156,7 @@
 <smd name="46" x="-1.4" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
 <smd name="47" x="-1.8" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
 <smd name="48" x="-2.2" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.59" y="-5.28" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-2.64" y="2.45" radius="0.0206125" width="0.127" layer="21"/>
 <wire x1="-2.999740625" y1="2.415540625" x2="-2.999740625" y2="2.999740625" width="0.127" layer="21"/>
 <wire x1="-2.999740625" y1="2.999740625" x2="-2.41808125" y2="2.999740625" width="0.127" layer="21"/>
@@ -403,7 +402,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="JTI_CAT_2012_INDUCTORS_CHIP-242427">
 <smd name="E1" x="-1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
 <smd name="E2" x="1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.37" y="0.7" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -440,7 +439,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="ABLS-16.000MHZ-B4-T">
 <smd name="E2" x="4.7498" y="0" dx="5.588" dy="2.1082" layer="1"/>
 <smd name="E1" x="-4.7498" y="0" dx="5.588" dy="2.1082" layer="1"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -593,8 +592,8 @@ W = angled&lt;p&gt;
 <pad name="7" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-10.16" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-9.398" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="8.255" y="1.651" size="1.27" layer="21" ratio="10">8</text>
+<text x="-11.938" y="-0.381" size="1.27" layer="21" ratio="10">1</text>
+<text x="10.795" y="-0.889" size="1.27" layer="21" ratio="10">8</text>
 <text x="-1.27" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
@@ -732,64 +731,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Sensirion">
-<packages>
-<package name="4INPUTS">
-<rectangle x1="0.3" y1="0.75" x2="1.7" y2="1.25" layer="1"/>
-<rectangle x1="0.35" y1="-0.3" x2="0.7" y2="0.35" layer="1"/>
-<rectangle x1="1.3" y1="-0.3" x2="1.65" y2="0.35" layer="1"/>
-<rectangle x1="0.35" y1="1.65" x2="0.7" y2="2.3" layer="1"/>
-<rectangle x1="1.3" y1="1.65" x2="1.65" y2="2.3" layer="1"/>
-<rectangle x1="0" y1="0" x2="0.05" y2="2" layer="21"/>
-<rectangle x1="0" y1="1.95" x2="2" y2="2" layer="21"/>
-<rectangle x1="1.95" y1="0" x2="2" y2="1.95" layer="21"/>
-<rectangle x1="0" y1="0" x2="1.95" y2="0.05" layer="21"/>
-<smd name="VSS" x="0.5" y="2" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="SDA" x="1.45" y="2" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="VDD" x="0.5" y="0" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<smd name="SCL" x="1.45" y="0" dx="0.6096" dy="0.3048" layer="1" rot="R90"/>
-<text x="0" y="2.5" size="0.254" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SHTC1">
-<description>Sensirion SHTC1 Humidity and Temperature IC.
-
-Data sheets:
-http://www.sensirion.com/en/products/humidity-temperature/download-center/</description>
-<wire x1="0" y1="0" x2="30.48" y2="0" width="0.254" layer="94"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="25.4" width="0.254" layer="94"/>
-<wire x1="30.48" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
-<pin name="VDD" x="-5.08" y="20.32" length="middle"/>
-<pin name="SCL" x="-5.08" y="5.08" length="middle"/>
-<pin name="SDA" x="35.56" y="5.08" length="middle" rot="R180"/>
-<pin name="VSS" x="35.56" y="20.32" length="middle" rot="R180"/>
-<wire x1="0" y1="0" x2="0" y2="25.4" width="0.254" layer="94"/>
-<text x="0" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SHTC1" prefix="IC">
-<description>Sensirion SHTC1 Humidity and Temperature sensor IC</description>
-<gates>
-<gate name="G$1" symbol="SHTC1" x="-15.24" y="-12.7"/>
-</gates>
-<devices>
-<device name="" package="4INPUTS">
-<connects>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-<connect gate="G$1" pin="VSS" pad="VSS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Pulse">
 <packages>
 <package name="W3008">
@@ -832,8 +773,8 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <library name="Renata">
 <packages>
 <package name="SMTU2032-G.TR">
-<smd name="VCC" x="-16" y="0" dx="3.5" dy="2.6" layer="16" rot="R90"/>
-<smd name="GND" x="16" y="0" dx="3.5" dy="2.6" layer="16" rot="R90"/>
+<smd name="VCC" x="-16" y="0" dx="3.5" dy="2.6" layer="1" rot="R90"/>
+<smd name="GND" x="16" y="0" dx="3.5" dy="2.6" layer="1" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-17.78" y="2.54" size="1.27" layer="25">VCC</text>
 <text x="13.97" y="2.54" size="1.27" layer="25">GND</text>
@@ -907,6 +848,59 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 </deviceset>
 </devicesets>
 </library>
+<library name="SiliconLabs">
+<packages>
+<package name="SI7006-A20-IM">
+<smd name="SDA" x="-1.45" y="1.25" dx="0.85" dy="0.45" layer="1"/>
+<smd name="GND" x="-1.45" y="0" dx="0.85" dy="0.45" layer="1" rot="R180"/>
+<smd name="DNC" x="-1.45" y="-1.25" dx="0.85" dy="0.45" layer="1"/>
+<smd name="SCL" x="1.45" y="1.25" dx="0.85" dy="0.45" layer="1" rot="R180"/>
+<smd name="VDD" x="1.45" y="0" dx="0.85" dy="0.45" layer="1"/>
+<smd name="DNC2" x="1.45" y="-1.25" dx="0.85" dy="0.45" layer="1"/>
+<text x="2.54" y="0" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.94" y="1.94" size="0.6096" layer="21">SDA</text>
+<text x="0.96" y="1.89" size="0.6096" layer="21">SCL</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SI7006-A20-IM">
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="SCL" x="5.08" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="VDD" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="DNC2" x="-5.08" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="SDA" x="5.08" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="DNC" x="-5.08" y="7.62" visible="pad" length="middle" rot="R270"/>
+<text x="2.54" y="0" size="1.27" layer="94" rot="R180">Si7006</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SI7006-A20-IM" prefix="IC">
+<gates>
+<gate name="G$1" symbol="SI7006-A20-IM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SI7006-A20-IM">
+<connects>
+<connect gate="G$1" pin="DNC" pad="DNC"/>
+<connect gate="G$1" pin="DNC2" pad="DNC2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -958,9 +952,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <part name="PIN8-16" library="con-lstb" deviceset="MA08-1" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="JTAG" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="HUM/TEMP" library="Sensirion" deviceset="SHTC1" device=""/>
-<part name="SUPPLY5" library="supply2" deviceset="VDD" device=""/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="ANTENNA" library="Pulse" deviceset="W3008" device=""/>
 <part name="BATTERY" library="Renata" deviceset="SMTU2032-G.TR" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="VDD" device=""/>
@@ -970,10 +961,14 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <part name="R4" library="Panasonic" deviceset="ERJ-3GEYJ103V" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="VDD" device=""/>
+<part name="SI7006" library="SiliconLabs" deviceset="SI7006-A20-IM" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="supply2" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="289.56" y="-55.88" size="1.778" layer="91">BlueNinc</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="20.32"/>
@@ -1017,9 +1012,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <instance part="PIN8-16" gate="1" x="-43.18" y="-20.32"/>
 <instance part="GND13" gate="1" x="121.92" y="-20.32"/>
 <instance part="JTAG" gate="G$1" x="-43.18" y="-43.18"/>
-<instance part="HUM/TEMP" gate="G$1" x="-25.4" y="124.46"/>
-<instance part="SUPPLY5" gate="G$1" x="-38.1" y="147.32"/>
-<instance part="GND14" gate="1" x="17.78" y="142.24"/>
 <instance part="ANTENNA" gate="G$1" x="307.34" y="60.96"/>
 <instance part="BATTERY" gate="G$1" x="294.64" y="142.24"/>
 <instance part="SUPPLY6" gate="G$1" x="294.64" y="160.02"/>
@@ -1029,6 +1021,9 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <instance part="R4" gate="G$1" x="137.16" y="17.78" rot="R270"/>
 <instance part="SUPPLY7" gate="G$1" x="129.54" y="0" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="137.16" y="0" rot="R180"/>
+<instance part="SI7006" gate="G$1" x="-12.7" y="104.14" rot="R90"/>
+<instance part="GND17" gate="1" x="-33.02" y="104.14" rot="R270"/>
+<instance part="SUPPLY5" gate="G$1" x="7.62" y="104.14" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1079,11 +1074,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <junction x="157.48" y="78.74"/>
 </segment>
 <segment>
-<pinref part="HUM/TEMP" gate="G$1" pin="VDD"/>
-<wire x1="-30.48" y1="144.78" x2="-38.1" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="BATTERY" gate="G$1" pin="VCC"/>
 <wire x1="294.64" y1="149.86" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VDD"/>
@@ -1095,6 +1085,11 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <segment>
 <pinref part="R4" gate="G$1" pin="E2"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="SI7006" gate="G$1" pin="VDD"/>
+<wire x1="-5.08" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1186,11 +1181,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <wire x1="254" y1="25.4" x2="254" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HUM/TEMP" gate="G$1" pin="VSS"/>
-<wire x1="10.16" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="BATTERY" gate="G$1" pin="GND"/>
 <wire x1="294.64" y1="137.16" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -1203,6 +1193,11 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="E2"/>
 <wire x1="307.34" y1="25.4" x2="307.34" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SI7006" gate="G$1" pin="GND"/>
+<wire x1="-20.32" y1="104.14" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1535,11 +1530,6 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="HUM/TEMP" gate="G$1" pin="SDA"/>
-<wire x1="10.16" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="17.78" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P0.17"/>
 <wire x1="127" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <label x="137.16" y="33.02" size="1.778" layer="95"/>
@@ -1548,13 +1538,13 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <wire x1="129.54" y1="27.94" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <junction x="129.54" y="33.02"/>
 </segment>
+<segment>
+<pinref part="SI7006" gate="G$1" pin="SDA"/>
+<wire x1="-20.32" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="-30.48" y="109.22" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<pinref part="HUM/TEMP" gate="G$1" pin="SCL"/>
-<wire x1="-30.48" y1="129.54" x2="-38.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="-38.1" y="129.54" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P0.18"/>
 <wire x1="127" y1="35.56" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
@@ -1565,10 +1555,42 @@ http://www.sensirion.com/en/products/humidity-temperature/download-center/</desc
 <wire x1="134.62" y1="27.94" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
 <junction x="134.62" y="35.56"/>
 </segment>
+<segment>
+<pinref part="SI7006" gate="G$1" pin="SCL"/>
+<wire x1="-5.08" y1="109.22" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
+<label x="5.08" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-29.21,62.0818,C1,,,,,"/>
+<approved hash="113,1,11.43,47.2355,L1,,,,,"/>
+<approved hash="113,1,-8.89,47.2355,L2,,,,,"/>
+<approved hash="113,1,-29.21,46.8418,C2,,,,,"/>
+<approved hash="113,1,21.7382,11.43,C3,,,,,"/>
+<approved hash="113,1,148.738,6.35,C4,,,,,"/>
+<approved hash="113,1,156.358,69.85,C5,,,,,"/>
+<approved hash="113,1,141.118,105.41,C6,,,,,"/>
+<approved hash="113,1,77.47,151.278,C7,,,,,"/>
+<approved hash="113,1,77.47,123.338,C8,,,,,"/>
+<approved hash="113,1,171.598,21.59,C9,,,,,"/>
+<approved hash="113,1,186.69,37.0755,L3,,,,,"/>
+<approved hash="113,1,217.17,37.0755,L4,,,,,"/>
+<approved hash="113,1,242.57,44.5982,C10,,,,,"/>
+<approved hash="113,1,255.122,34.29,C11,,,,,"/>
+<approved hash="113,1,270.51,47.2355,L5,,,,,"/>
+<approved hash="113,1,288.142,34.29,C12,,,,,"/>
+<approved hash="113,1,308.462,34.29,C13,,,,,"/>
+<approved hash="113,1,137.691,53.871,FRAME1,,,,,"/>
+<approved hash="113,1,-38.1423,10.3547,PIN0-7,,,,,"/>
+<approved hash="113,1,-38.1423,-17.5853,PIN8-16,,,,,"/>
+<approved hash="113,1,-38.1423,-41.7153,JTAG,,,,,"/>
+<approved hash="113,1,119.473,-5.08,R2,,,,,"/>
+<approved hash="113,1,131.987,15.24,R3,,,,,"/>
+<approved hash="113,1,139.607,15.24,R4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
