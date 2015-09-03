@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -61,7 +61,7 @@
 <smd name="GND" x="0" y="0" dx="17.78" dy="17.78" layer="1" roundness="100"/>
 <smd name="VDD1" x="-11.43" y="0" dx="2.54" dy="5.08" layer="1"/>
 <smd name="VDD2" x="11.43" y="0" dx="2.54" dy="5.08" layer="1"/>
-<text x="-2.54" y="10.16" size="1.27" layer="25">Battery</text>
+<text x="-10.16" y="3.81" size="1.27" layer="25" rot="R90">Battery</text>
 </package>
 </packages>
 <symbols>
