@@ -1189,48 +1189,6 @@ W = angled&lt;p&gt;
 <junction x="287.02" y="45.72"/>
 </segment>
 </net>
-<net name="P0.00" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.00"/>
-<wire x1="68.58" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
-<label x="55.88" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P0.01" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.01"/>
-<wire x1="68.58" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
-<label x="55.88" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P0.02" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.02"/>
-<wire x1="68.58" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<label x="55.88" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P0.03" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.03"/>
-<wire x1="68.58" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<label x="55.88" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P0.04" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.04"/>
-<wire x1="68.58" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
-<label x="55.88" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P0.05" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.05"/>
-<wire x1="68.58" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
-<label x="55.88" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="P0.06" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P0.06"/>
@@ -1344,8 +1302,6 @@ W = angled&lt;p&gt;
 <approved hash="113,1,119.473,-5.08,R2,,,,,"/>
 <approved hash="113,1,131.987,15.24,R3,,,,,"/>
 <approved hash="113,1,139.607,15.24,R4,,,,,"/>
-<approved hash="113,1,-38.1423,4.00473,P02,,,,,"/>
-<approved hash="113,1,20.2777,-21.3953,P35,,,,,"/>
 <approved hash="113,1,60.9177,-31.5553,P67VDD,,,,,"/>
 </errors>
 </schematic>
