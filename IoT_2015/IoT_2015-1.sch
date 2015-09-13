@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,7 +156,7 @@
 <smd name="46" x="-1.4" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
 <smd name="47" x="-1.8" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
 <smd name="48" x="-2.2" y="3.17" dx="1.3" dy="0.2257" layer="1" rot="R270"/>
-<text x="-2.59" y="-5.28" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.86" y="-5.28" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-2.64" y="2.45" radius="0.0206125" width="0.127" layer="21"/>
 <wire x1="-2.999740625" y1="2.415540625" x2="-2.999740625" y2="2.999740625" width="0.127" layer="21"/>
 <wire x1="-2.999740625" y1="2.999740625" x2="-2.41808125" y2="2.999740625" width="0.127" layer="21"/>
@@ -300,7 +300,7 @@ NORDIC SEMICONDUCTOR</description>
 <package name="VJ1603_W1BC">
 <smd name="E2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
 <smd name="E1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<text x="0" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.6096" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -402,7 +402,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="JTI_CAT_2012_INDUCTORS_CHIP-242427">
 <smd name="E1" x="-1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
 <smd name="E2" x="1.05" y="0" dx="1.3" dy="0.9" layer="1"/>
-<text x="-1.37" y="0.7" size="1.27" layer="21">&gt;NAME</text>
+<text x="-0.1" y="0.7" size="0.6096" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -556,6 +556,8 @@ W = angled&lt;p&gt;
 <pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="1.905" size="1.27" layer="21" ratio="10">1</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -647,7 +649,7 @@ W = angled&lt;p&gt;
 <package name="ERJ-3GEYJ103V">
 <smd name="E1" x="-0.7" y="0" dx="0.7" dy="0.8" layer="1"/>
 <smd name="E2" x="0.7" y="0" dx="0.7" dy="0.8" layer="1"/>
-<text x="0" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.6096" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -692,8 +694,8 @@ W = angled&lt;p&gt;
 <smd name="VDD" x="1.45" y="0" dx="0.85" dy="0.45" layer="1"/>
 <smd name="DNC2" x="1.45" y="-1.25" dx="0.85" dy="0.45" layer="1"/>
 <text x="0" y="-1.54" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
-<text x="-1.94" y="1.94" size="0.6096" layer="21">SDA</text>
-<text x="0.96" y="1.89" size="0.6096" layer="21">SCL</text>
+<text x="-3.972" y="1.178" size="0.6096" layer="21">SDA</text>
+<text x="0.96" y="1.636" size="0.6096" layer="21">SCL</text>
 </package>
 </packages>
 <symbols>
