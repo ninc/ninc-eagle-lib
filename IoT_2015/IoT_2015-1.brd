@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -695,6 +695,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.4" y1="11.08" x2="17.63" y2="11.08" width="0.254" layer="1"/>
 <wire x1="13.96" y1="10.68" x2="16.4" y2="10.68" width="0.254" layer="1"/>
 <wire x1="16.4" y1="10.68" x2="16.4" y2="11.08" width="0.254" layer="1"/>
+<polygon width="0.01" layer="1" spacing="0.05" isolate="0.012">
+<vertex x="0" y="0"/>
+<vertex x="0" y="20"/>
+<vertex x="30" y="20"/>
+<vertex x="30" y="0"/>
+</polygon>
+<wire x1="16.21" y1="15.13" x2="13.35" y2="15.18" width="0" layer="19" extent="1-1"/>
+<wire x1="20.07" y1="12.25" x2="19.49" y2="15.13" width="0" layer="19" extent="1-1"/>
+<wire x1="8.92" y1="15.18" x2="13.2588" y2="15.3162" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="29"/>
